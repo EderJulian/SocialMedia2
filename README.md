@@ -3,9 +3,14 @@
 Este proyecto tiene como objetivo desarrollar una API REST para gestionar usuarios, publicaciones (posts), comentarios y likes. Utilizaremos MongoDB con Mongoose para la base de datos y Express para el desarrollo del servidor en Node.js.
 
 ## Tecnologías Utilizadas
-- MongoDB con Mongoose
-- Express
-- Node.js
+
+[![MongoDB](https://img.shields.io/badge/MongoDB-4.4-green)](https://www.mongodb.com/)
+
+[![Mongoose](https://img.shields.io/badge/Mongoose-latest-blue)](https://mongoosejs.com/)
+
+[![Express](https://img.shields.io/badge/Express-4.17.1-lightgrey)](https://expressjs.com/)
+
+[![Node.js](https://img.shields.io/badge/Node.js-14.17.6-brightgreen)](https://nodejs.org/)
 
 ## Funcionalidades Principales
 
