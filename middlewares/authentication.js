@@ -5,7 +5,7 @@ const Comment = require("../models/Comment");
 require("dotenv").config();
 
 
-const authenticateUser = async (req, res, next) => {
+const authentication = async (req, res, next) => {
   try {
     const token = req.headers.authorization;
 
@@ -25,7 +25,7 @@ const authenticateUser = async (req, res, next) => {
   }
 };
 
-const isAdmin = (req, res, next) => {
+const Admincheck = (req, res, next) => {
   const admins = ["admin", "superadmin"];
 
   if (!admins.includes(req.user.role)) {
