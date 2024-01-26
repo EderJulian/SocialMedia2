@@ -8,12 +8,7 @@ const CommentController = {
 
     try {
 
-      const comment = await Comment.create({
-
-        ...req.body,
-        userId: req.user._id,
-
-      });
+      const comment = await Comment.create({...req.body, userId: req.user._id,});
 
       const post = await Post.findOne({ _id: req.body.postId });
 
